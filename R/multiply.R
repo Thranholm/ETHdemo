@@ -7,11 +7,12 @@
 #'
 #' @examples
 #' times2(2)
+times2 <- function(x = 2) {
+  if(is.character(x)){
+    x <- check_character(x)
+  }
 
-times2 <- function(x){
-
-  x <- check_character(x)
-  x*2
+  x * 2
 }
 
 #' Times number by 3
@@ -23,11 +24,9 @@ times2 <- function(x){
 #'
 #' @examples
 #' times3(3)
-
-times3 <- function(x){
-
-  x <- check_character(x)
-  x*3
+times3 <- function(x) {
+  if(is.character(x)){
+    x <- check_character(x)
+  }
+  x * 3
 }
-
-

@@ -4,7 +4,7 @@
 \alias{times2}
 \title{Times number by 2}
 \usage{
-times2(x)
+times2(x = 2)
 }
 \arguments{
 \item{x}{A numeric or character value}
