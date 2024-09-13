@@ -7,3 +7,9 @@ check_character <- function(x) {
     stringr::str_c(collapse = "") %>%
     as.numeric()
 }
+
+## Data utils
+
+find_iris <- function() {
+  iris2
+}

@@ -8,6 +8,9 @@
 #' @examples
 #' times2(2)
 times2 <- function(x = 2) {
+
+
+
   if(is.character(x)){
     x <- check_character(x)
   }
@@ -30,3 +33,6 @@ times3 <- function(x) {
   }
   x * 3
 }
+
+
+
